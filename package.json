@@ -20,6 +20,7 @@
   "homepage": "https://github.com/idmega2000/MyPortfolio#readme",
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
+    "antd": "^4.10.2",
     "gatsby-cli": "^2.8.28",
     "i18next": "^19.8.4",
     "i18next-browser-languagedetector": "^6.0.1",
