@@ -7,14 +7,17 @@ import { EDUCATION_INFO } from "components/Educations/data"
 
 
 
-export const Education = (props) => 
+export const Education = () => 
 <div style={{marginBottom: 30}}>
 <ComponentWrapperWithTitle >
     Education
 </ComponentWrapperWithTitle>
 {
-    EDUCATION_INFO.map((info) => 
+    EDUCATION_INFO.map((info, index) =>
+    <div key={index+1}>
     <GeneralCards info={info} />
+    </div>
+
     )
 }
 </div>

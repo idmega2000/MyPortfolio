@@ -13,7 +13,7 @@
     "url": "git+https://github.com/idmega2000/MyPortfolio.git"
   },
   "author": "idmega2000@gmail.com",
-  "license": "ISC",
+  "license": "",
   "bugs": {
     "url": "https://github.com/idmega2000/MyPortfolio/issues"
   },
@@ -21,6 +21,7 @@
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "antd": "^4.10.2",
+    "gatsby-cli": "^2.8.28",
     "i18next": "^19.8.4",
     "i18next-browser-languagedetector": "^6.0.1",
     "next": "^9.5.5",

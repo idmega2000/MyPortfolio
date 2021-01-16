@@ -21,3 +21,7 @@ export const ComponentWrapperWithTitle = styled('p')`
   margin-left: 20px;
   font-size: 35px;
 `;
+
+export const ExperienceWrapper = styled('div')`
+  margin-bottom: 40px;
+`;

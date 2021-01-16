@@ -1,23 +1,23 @@
-
-
 import GeneralCards from "components/Cards"
-
-import { ComponentWrapperWithTitle } from 'components/Wrappers/styled'
-import { experienceInfo } from "components/Experience/data"
-
+import { ComponentWrapperWithTitle, ExperienceWrapper } from 'components/Wrappers/styled'
+import { EXPERIENCE_INFO } from "components/Experience/data"
 
 
-export const Experience = (props) => 
-<div style={{marginBottom: 40}}>
-<ComponentWrapperWithTitle >
-    Work Experience
-</ComponentWrapperWithTitle>
-{
-    experienceInfo.map((info) => 
-    <GeneralCards info={info} />
-    )
-}
-</div>
+export const Experience = () => 
+
+    <ExperienceWrapper>
+    <ComponentWrapperWithTitle >
+        Work Experience
+    </ComponentWrapperWithTitle>
+    {
+        EXPERIENCE_INFO.map((info, index) => 
+        <div key={index+1}>
+        <GeneralCards info={info} />
+        </div>
+        )
+    }
+    </ExperienceWrapper>
+
 
 
 

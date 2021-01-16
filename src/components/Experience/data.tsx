@@ -1,5 +1,5 @@
 
-export const experienceInfo = [
+export const EXPERIENCE_INFO = [
     {
         dateOrStack: 'Dec 2019 to Present',
         company: 'Nigeria Inter-Bank Settlement System Plc (NIBSS)',

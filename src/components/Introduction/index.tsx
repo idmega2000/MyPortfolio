@@ -2,7 +2,7 @@ import SocialIcons from "components/SocialMedia"
 import { IntrouductionWrapper, NameIntro, DetailedIntro, TagIntro } from "./styled"
 
 
-const Introduction = (props) => 
+const Introduction = () => 
 <IntrouductionWrapper>
 <NameIntro>
 Hi, I'm Idris Kelani.
