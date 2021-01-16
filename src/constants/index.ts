@@ -8,6 +8,7 @@ const fontUrlLuckiestGuy = 'https://fonts.googleapis.com/css?family=Luckiest+Guy
 
 const theme = {
   colors: {
+    text_color: 'white',
     green_main: '#00e8bb',
     green_dark: '#01c39e',
     green: '#05e5b3',
@@ -77,5 +78,13 @@ const GlobalStyle = createGlobalStyle`
 
 `;
 
+
+export const socialMediaLinks = {
+  twitter: 'https://twitter.com/idmega2000',
+  github: 'https://github.com/idmega2000',
+  instagram: 'https://www.instagram.com/idmega2000/',
+  linkedin: 'www.linkedin.com/in/idris-kelani'
+
+}
 
 export { fontUrlJosefinSans, fontUrlLilitaOne, fontUrlLuckiestGuy, GlobalStyle, theme };

@@ -8,7 +8,7 @@ const Meta = () => (
           />
       <meta charSet="utf-8" />
       <link rel="shortcut icon" href="/static/favicon.png" />
-      <title>Duuno Kids</title>
+      <title>Idris Kelani</title>
     </Head>
   );
   
