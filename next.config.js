@@ -9,6 +9,7 @@ module.exports = withImages(
     webpack(config) {
       config.resolve.alias['components'] = path.join(__dirname, 'src/components');
       config.resolve.alias['constants'] = path.join(__dirname, 'src/constants');
+      config.resolve.alias['public'] = path.join(__dirname, 'public');
       config.module.rules.push({
         test: /\.(eot|woff|woff2|ttf|svg|gif)$/,
         use: {

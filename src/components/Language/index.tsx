@@ -27,7 +27,7 @@ const LanguageProvider: React.FC<ProviderProps> = ({ children }) => {
     i18n.changeLanguage(name, () => {
       setLanguage(name);
       const path = Router.route;
-      Router.push({ pathname: path, query: { lang: i18n.language } }, path, { swallow: true });
+      Router.push({ pathname: path, query: { lang: i18n.language } }, path);
     });
 
   return <LanguageContext.Provider value={{ language, changeLanguage }}>{children}</LanguageContext.Provider>;
