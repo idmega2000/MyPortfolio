@@ -1,9 +1,10 @@
 import SocialIcons from "components/SocialMedia"
-import { IntrouductionWrapper, NameIntro, DetailedIntro, TagIntro } from "./styled"
+import { InnerIntrouductionWrapper, IntrouductionWrapper, NameIntro, DetailedIntro, TagIntro } from "./styled"
 
 
 const Introduction = () => 
 <IntrouductionWrapper>
+<InnerIntrouductionWrapper>
 <NameIntro>
 Hi, I'm Idris Kelani.
 </NameIntro>
@@ -16,6 +17,7 @@ Software Engineer, Mentor and Researcher
     In my free time, I enjoy travelling, photography, video games, and involving in some outdoor sport activities.
     </DetailedIntro>
     <SocialIcons />
+</InnerIntrouductionWrapper>
 </IntrouductionWrapper>
 
 export default Introduction

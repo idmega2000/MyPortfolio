@@ -16,12 +16,12 @@ export const EXPERIENCE_INFO = [
         dateOrStack: 'Nov 2018 to Sept 2020',
         company: 'Andela Nigeria',
         position: 'Software engineer',
-        description: 'Member of teams working on internal products'
+        description: 'Member of an Agile team working on some internal products'
     },
     {
         dateOrStack: 'Feb 2017 to Aug 2018',
-        company: 'Andela Nigeria',
+        company: 'Probtals Software Solutions',
         position: 'Contract Software engineer',
-        description: 'Member of teams working on internal products'
+        description: 'Member of teams working on client projects'
     }
 ]
