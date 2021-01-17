@@ -120,6 +120,8 @@ class MainApp extends App<{
                   <link href={fontUrlLuckiestGuy} rel="stylesheet"></link>
                   <Meta />
                   <div className="navbar">
+                    <a href={'#Experience'}>Experience</a>
+                    <a href={'#Education'}>Education</a>
                     <DarkModeToggle updateThemeMode={this.updateThemeMode} />
                   </div>
                   <Component {...pageProps} />

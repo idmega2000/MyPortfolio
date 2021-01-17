@@ -110,8 +110,8 @@ const GlobalStyle = createGlobalStyle`
     top: 0;
     width: 100%;
     display: flex;
+    background-color: #f9f9f9;
     padding: 20px;
-    
   }
 
   body.dark-mode .content code {
