@@ -7,7 +7,7 @@ export const EXPERIENCE_INFO = [
         description: 'A member of the payment team'
     },
     {
-        dateOrStack: 'Oct 2019 to Mar 2020',
+        dateOrStack: 'Oct 2019 to Feb 2020',
         company: 'Gitstart San Francisco',
         position: 'Contract Software engineer',
         description: 'Handling different client projects'

@@ -8,7 +8,6 @@ const fontUrlLuckiestGuy = 'https://fonts.googleapis.com/css?family=Luckiest+Guy
 
 const theme = {
   colors: {
-    text_color: 'white',
     green_main: '#00e8bb',
     green_dark: '#01c39e',
     green: '#05e5b3',
@@ -19,6 +18,7 @@ const theme = {
     white: '#fff',
     gray_gallery: '#f0f0f0',
     gray_light: '#f9f9f9',
+    gray_moderate: '#f7f7f7',
     gray_silver: '#c0c0c0',
     gray_silver_chalice: '#a19f9f',
     gray_dove_gray: '#707070',
@@ -32,6 +32,12 @@ const theme = {
   },
 };
 
+
+ const darkThem = {
+  colors: {
+    gray_moderate: '#1b2938',
+  }
+}
 const GlobalStyle = createGlobalStyle`
   ${reset}
 
@@ -76,6 +82,111 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Josefin Sans', sans-serif;
   }
 
+
+  body.light-mode {
+    background-color: #fff;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  body.dark-mode {
+    background-color: #10171d;
+    color: #dfdfdf;
+  
+    .navbar {
+      background-color: #1b2938;
+    }
+  
+    .dark-mode-toggle > button {
+      color: #999;
+      &:last-child {
+        color: lightblue;
+      }
+    }
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+
+  body.dark-mode .content code {
+    background-color: #1b2938;
+  }
+  
+  body.dark-mode .content a {
+    color: #ee09;
+  }
+  
+  body.dark-mode .content button {
+    color: #ee09;
+  }
+  
+  .dark-mode-toggle {
+    display: flex;
+    margin: 0 auto;
+    & > button {
+      font-size: 1.2em;
+      background: none;
+      border: none;
+      color: #ffe600;
+      cursor: pointer;
+      transition: color 0.3s ease;
+      &:last-child {
+        color: #666;
+      }
+  
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+  
+  .toggle-control {
+    position: relative;
+    padding: 0 4px;
+    display: flex;
+    align-items: center;
+  }
+  input[type='checkbox'].dmcheck {
+    width: 40px;
+    height: 10px;
+    background: #555;
+    position: relative;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    vertical-align: 2px;
+    outline: none;
+  
+    &:checked + label {
+      left: 30px;
+    }
+  
+    &:focus-visible {
+      outline: solid 2px white;
+    }
+  
+    & + label {
+      display: inline-block;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      position: absolute;
+      left: 2px;
+      background: #fff;
+      opacity: 0.9;
+      background-color: #f6f6f6;
+    }
+  }
 `;
 
 
@@ -87,4 +198,4 @@ export const socialMediaLinks = {
 
 }
 
-export { fontUrlJosefinSans, fontUrlLilitaOne, fontUrlLuckiestGuy, GlobalStyle, theme };
+export { fontUrlJosefinSans, fontUrlLilitaOne, fontUrlLuckiestGuy, GlobalStyle, theme, darkThem };

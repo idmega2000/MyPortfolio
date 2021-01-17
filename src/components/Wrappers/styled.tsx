@@ -23,5 +23,6 @@ export const ComponentWrapperWithTitle = styled('p')`
 `;
 
 export const ExperienceWrapper = styled('div')`
-  margin-bottom: 40px;
+  text-decoration: none;
+  color: inherit;
 `;

@@ -5,7 +5,7 @@ import { EXPERIENCE_INFO } from "components/Experience/data"
 
 export const Experience = () => 
 
-    <ExperienceWrapper>
+    <ExperienceWrapper id="Experience">
     <ComponentWrapperWithTitle >
         Work Experience
     </ComponentWrapperWithTitle>
