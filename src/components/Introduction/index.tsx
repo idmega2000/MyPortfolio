@@ -12,10 +12,13 @@ Hi, I'm Idris Kelani.
 Software Engineer, Mentor and Researcher
 </TagIntro>
     <DetailedIntro>
-    A Software Engineer at Nigeria Inter-Bank Settlement System Plc (NIBSS) Working as a member of the Payment team.
-    I've been writing code Professionally for 4+ years working with various languages and technologies, most notably; JavaScript, Java, and Python. 
-    In my free time, I enjoy travelling, photography, video games, and involving in some outdoor sport activities.
+    I’m an Experienced Software Engineer with expertise in JavaScript, Python and Java, Micro-service architecture and DevOps with over 4 years professional experience.
     </DetailedIntro>
+    
+    <DetailedIntro> 
+    In my free time, I enjoy Swimming, photography, Volleyball and watching technologies, inventeries, and science documentaries.
+    </DetailedIntro>
+
     <SocialIcons />
 </InnerIntrouductionWrapper>
 </IntrouductionWrapper>

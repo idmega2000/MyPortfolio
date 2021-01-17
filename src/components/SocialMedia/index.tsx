@@ -7,8 +7,6 @@ import Github from 'public/static/logo/github.png'
 import { socialMediaLinks } from 'constants/index';
 
 
-// socialMediaLinks
-socialMediaLinks
 
 const SocialIcons = (props) => 
 <div style={{marginLeft: '56px'}}>

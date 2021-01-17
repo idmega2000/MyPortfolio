@@ -22,6 +22,6 @@ export const ComponentWrapperWithTitle = styled('p')`
   font-size: 35px;
 `;
 
-export const ExperienceWrapper = styled('div')`
+export const ExperienceWrapper = styled('a')`
   margin-bottom: 40px;
 `;

@@ -6,8 +6,9 @@ import App from 'next/app';
 import { ThemeProvider } from 'styled-components';
 import Meta from 'components/Meta';
 import { fontUrlJosefinSans, fontUrlLilitaOne, 
-  fontUrlLuckiestGuy, theme, GlobalStyle } from 'constants/index';
+  fontUrlLuckiestGuy, theme, darkThem, GlobalStyle } from 'constants/index';
 import LanguageProvider from 'components/Language';
+import DarkModeToggle from 'components/ThemeChanger/DarkModeToggle';
 
 
 // const { Sentry } = init(process.env.SENTRY_RELEASE || '1');
@@ -22,6 +23,7 @@ class MainApp extends App<{
 }> {
   state = {
     hasError: false,
+    themeMode: false,
     // errorEventId: undefined,
   };
 
@@ -73,6 +75,11 @@ class MainApp extends App<{
     // `getDerivedStateFromError`.
     // this.setState({ errorEventId });
   }
+  updateThemeMode = (theState) => {
+    this.setState({
+      themeMode: theState,
+    })
+  }
 
   render() {
     const { Component, pageProps } = this.props;
@@ -104,7 +111,7 @@ class MainApp extends App<{
                 </p>
               </section>
             ) : (
-              <ThemeProvider theme={theme}>
+              <ThemeProvider theme={this.state.themeMode? darkThem : theme}>
               <LanguageProvider>
                 <>
                   <GlobalStyle />
@@ -112,6 +119,9 @@ class MainApp extends App<{
                   <link href={fontUrlLilitaOne} rel="stylesheet"></link>
                   <link href={fontUrlLuckiestGuy} rel="stylesheet"></link>
                   <Meta />
+                  <div className="navbar">
+                    <DarkModeToggle updateThemeMode={this.updateThemeMode} />
+                  </div>
                   <Component {...pageProps} />
                 </>
               </LanguageProvider>

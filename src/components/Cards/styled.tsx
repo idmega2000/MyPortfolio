@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
-
+// background-color: #f7f7f7;
 export const GeneralCardWrapper = styled('div')`
     width: 80%;
     height: 160px;
     border-radius: 3px;
     cursor: pointer;
-    background-color: #F8F8F8;
+    background: ${props => props.theme.colors.gray_moderate};
     margin-left: 20px;
     margin-top: 30px;
     box-shadow: 0 4px 10px -10px; 

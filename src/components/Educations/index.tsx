@@ -8,7 +8,7 @@ import { EDUCATION_INFO } from "components/Educations/data"
 
 
 export const Education = () => 
-<div style={{marginBottom: 30}}>
+<a style={{marginBottom: 30}} href={"#Education"}>
 <ComponentWrapperWithTitle >
     Education
 </ComponentWrapperWithTitle>
@@ -20,5 +20,5 @@ export const Education = () =>
 
     )
 }
-</div>
+</a>
 
