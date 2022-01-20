@@ -29,6 +29,7 @@ const theme = {
     light_gray: '#f9f9f9',
     black_bg_modal: 'rgba(48, 48, 48, 0.4)',
     disabled: '#dfdfdf',
+    header_hover: '#e4ecf2',
   },
 };
 
@@ -36,6 +37,7 @@ const theme = {
  const darkThem = {
   colors: {
     gray_moderate: '#1b2938',
+    header_hover: '#293c4a',
   }
 }
 const GlobalStyle = createGlobalStyle`
@@ -111,7 +113,7 @@ const GlobalStyle = createGlobalStyle`
     width: 100%;
     display: flex;
     background-color: #f9f9f9;
-    padding: 20px;
+    padding: 20px 20px 20px 60px;
   }
 
   body.dark-mode .content code {
@@ -129,6 +131,7 @@ const GlobalStyle = createGlobalStyle`
   .dark-mode-toggle {
     display: flex;
     margin: 0 auto;
+    margin-right: 5%;
     & > button {
       font-size: 1.2em;
       background: none;
