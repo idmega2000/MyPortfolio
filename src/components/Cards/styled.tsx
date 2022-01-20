@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 // background-color: #f7f7f7;
 export const GeneralCardWrapper = styled('div')`
-    width: 80%;
+    width: 85%;
     height: 160px;
     border-radius: 3px;
     cursor: pointer;
@@ -13,7 +13,7 @@ export const GeneralCardWrapper = styled('div')`
     &:hover {
         transform: scale(1.1);
         transition-duration: 0.3s;
-      }
+    }
 `;
 
 

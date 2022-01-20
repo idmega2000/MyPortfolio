@@ -1,6 +1,12 @@
 
 export const EDUCATION_INFO = [
     {
+        dateOrStack: 'Feb 2021',
+        company: 'Fast Track to EMV transaction expertise',
+        position: 'PayTech Academy',
+        description: 'In Progress'
+    },
+    {
         dateOrStack: 'Jan 2021',
         company: 'ISO 8583 & Transaction processing',
         position: 'PayTech Academy',

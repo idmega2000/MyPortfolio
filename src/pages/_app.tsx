@@ -9,6 +9,7 @@ import { fontUrlJosefinSans, fontUrlLilitaOne,
   fontUrlLuckiestGuy, theme, darkThem, GlobalStyle } from 'constants/index';
 import LanguageProvider from 'components/Language';
 import DarkModeToggle from 'components/ThemeChanger/DarkModeToggle';
+import { HeaderAnchor } from 'components/Utilities/styled';
 
 
 // const { Sentry } = init(process.env.SENTRY_RELEASE || '1');
@@ -120,8 +121,8 @@ class MainApp extends App<{
                   <link href={fontUrlLuckiestGuy} rel="stylesheet"></link>
                   <Meta />
                   <div className="navbar">
-                    <a href={'#Experience'}>Experience</a>
-                    <a href={'#Education'}>Education</a>
+                    <HeaderAnchor href={'#Experience'}>Experience</HeaderAnchor>
+                    <HeaderAnchor href={'#Education'}>Education</HeaderAnchor>
                     <DarkModeToggle updateThemeMode={this.updateThemeMode} />
                   </div>
                   <Component {...pageProps} />
