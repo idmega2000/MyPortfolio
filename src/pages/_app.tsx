@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-
 import { ThemeProvider } from 'styled-components';
 import Meta from 'components/Meta';
 import {
@@ -33,9 +32,7 @@ function MainApp({ Component, pageProps }: { Component: React.ComponentClass<any
         </>
       </LanguageProvider>
     </ThemeProvider>
-    {/* // )} */}
   </div>
-  // );
 }
 
 

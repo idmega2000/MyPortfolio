@@ -1,13 +1,13 @@
 import SocialIcons from "components/SocialMedia"
 import React from "react";
 import Typed from "typed.js";
-import { InnerIntrouductionWrapper, IntrouductionWrapper, NameIntro, DetailedIntro, TagIntro } from "./styled"
+import { InnerIntrouductionWrapper, IntrouductionWrapper, NameIntro, TagIntro } from "./styled"
 
 
 const Introduction = () => {
-    const el = React.useRef(null);
+    const el = React.useRef('');
     // Create reference to store the Typed instance itself
-    let typed = React.useRef(null);
+    let typed: any = React.useRef(null);
 
 
     React.useEffect(() => {

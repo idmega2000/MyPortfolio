@@ -1,11 +1,8 @@
 import styled from 'styled-components';
-import myImage from '../../assets/profile.jpg';
 
 
 /* ... */
-
 export const ProfileImage = styled.div`
-  background-image: url(${myImage});
   width: 400px;
   heigth: 600px;
 `;

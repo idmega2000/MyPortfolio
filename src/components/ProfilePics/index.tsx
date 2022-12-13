@@ -1,10 +1,9 @@
 import React from "react";
-import { ProfileImage, ProfileImagee } from "./styled"
-import myImage from '../../assets/profile.jpg';
+import {  ProfileImagee } from "./styled"
 
 
 const ProfilePics = () => {
 
-    return <ProfileImagee src={myImage} />
+    return <ProfileImagee />
 }
 export default ProfilePics
