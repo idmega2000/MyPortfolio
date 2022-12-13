@@ -1,6 +1,5 @@
 import React, { ErrorInfo, ReactNode } from 'react';
 
-// import { init, captureException } from 'lib/sentry';
 
 import App from 'next/app';
 import { ThemeProvider } from 'styled-components';
@@ -11,11 +10,6 @@ import LanguageProvider from 'components/Language';
 import DarkModeToggle from 'components/ThemeChanger/DarkModeToggle';
 import { HeaderAnchor } from 'components/Utilities/styled';
 
-
-// const { Sentry } = init(process.env.SENTRY_RELEASE || '1');
-
-// A function that routes the user to the right place
-// after login
 
 
 class MainApp extends App<{

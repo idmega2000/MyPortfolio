@@ -14,6 +14,9 @@ export const GeneralCardWrapper = styled('div')`
         transform: scale(1.1);
         transition-duration: 0.3s;
     }
+    @media (max-width: 758px) {
+        width: 93.5%;
+      }
 `;
 
 
