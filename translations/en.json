@@ -1,0 +1,65 @@
+{
+    "page": {
+      "index": {
+        "Female": "Female",
+        "Male": "Male",
+        "English": "English",
+        "Age": "Age",
+        "Range": "Range",
+        "Languages": "Languages",
+        "green": "green",
+        "Acute Sense": "Acute Sense",
+        "Communicating": "Communicating",
+        "Online": "Online",
+        "Ability to": "Ability to",
+        "OUR UNIQUE METHODOLOGY": "OUR UNIQUE METHODOLOGY",
+        "Short Duration": "Short Duration",
+        "High-Frequency": "High-Frequency",
+        "KEY FEATURES": "KEY FEATURES",
+        "TECHONOLOGY": "TECHONOLOGY",
+        "Instant Feedback": "Instant Feedback",
+        "LEARN MORE": "LEARN MORE",
+        "AWARDS": "AWARDS",
+        "Spanish": "Spanish",
+        "French": "French",
+        "Hong Kong": "Hong Kong",
+        "Innovation Award": "Innovation Award",
+        "Sign Up": "Sign Up",
+        "Get Started": "Get Started"
+      }
+    },
+    "components": {
+      "header": {
+        "Science": "Science",
+        "About Us": "About Us",
+        "Contact Us": "Contact Us",
+        "Teacher Recruitment": "Teacher Recruitment",
+        "Login": "Login"
+      },
+      "footer": {
+        "CONTACT US": "CONTACT US",
+        "FOLLOW US ON SOCIAL MEDIA": "FOLLOW US ON SOCIAL MEDIA",
+        "Science": "Science",
+        "About Us": "About Us",
+        "Contact Us": "Contact Us"
+    }
+    },
+    "common": {
+      "Learn More Now!": "Learn More Now!",
+      "SUBMIT": "SUBMIT",
+      "Enter Email Address": "Enter Email Address",
+      "time": {
+        "a minute": "a minute",
+        "%d minutes": "%d minutes",
+        "an hour": "an hour",
+        "%d hours": "%d hours",
+        "a day": "a day",
+        "%d days": "%d days",
+        "a month": "a month",
+        "%d months": "%d months",
+        "a year": "a year",
+        "%d years": "%d years"
+      }
+    }
+  }
+  

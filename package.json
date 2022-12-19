@@ -1,0 +1,41 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "description": "my personal portfolio",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idmega2000/MyPortfolio.git"
+  },
+  "author": "idmega2000@gmail.com",
+  "bugs": {
+    "url": "https://github.com/idmega2000/MyPortfolio/issues"
+  },
+  "homepage": "https://github.com/idmega2000/MyPortfolio#readme",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "antd": "^5.0.6",
+    "i18next": "^22.4.5",
+    "i18next-browser-languagedetector": "^7.0.1",
+    "next": "^13.0.6",
+    "next-images": "^1.8.4",
+    "next-themes": "^0.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sequelize": "^6.27.0",
+    "styled-components": "^5.3.6",
+    "styled-reset": "^4.4.4",
+    "typed.js": "^2.0.12",
+    "use-dark-mode": "^2.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "babel-plugin-styled-components": "^2.0.7",
+    "typescript": "^4.9.4"
+  }
+}
