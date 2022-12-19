@@ -11,7 +11,7 @@ export const Education = () =>
 <div style={{ marginTop: 40}}>
     <ExperienceWrapper id="Education">
     <ComponentWrapperWithTitle >
-        Education
+        Education and Certifications
     </ComponentWrapperWithTitle>
     {
         EDUCATION_INFO.map((info, index) =>

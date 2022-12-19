@@ -197,7 +197,7 @@ export const socialMediaLinks = {
   twitter: 'https://twitter.com/idmega2000',
   github: 'https://github.com/idmega2000',
   instagram: 'https://www.instagram.com/idmega2000/',
-  linkedin: 'www.linkedin.com/in/idris-kelani'
+  linkedin: 'https://linkedin.com/in/idris-kelani'
 
 }
 

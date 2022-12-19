@@ -1,26 +1,42 @@
 import SocialIcons from "components/SocialMedia"
-import { InnerIntrouductionWrapper, IntrouductionWrapper, NameIntro, DetailedIntro, TagIntro } from "./styled"
+import React from "react";
+import Typed from "typed.js";
+import { InnerIntrouductionWrapper, IntrouductionWrapper, NameIntro, TagIntro } from "./styled"
 
 
-const Introduction = () => 
-<IntrouductionWrapper>
-<InnerIntrouductionWrapper>
-<NameIntro>
-Hi, I'm Idris Kelani.
-</NameIntro>
-<TagIntro>
-Software Engineer, Mentor and Researcher
-</TagIntro>
-    <DetailedIntro>
-    I’m an Experienced Software Engineer with expertise in JavaScript, Python and Java, Micro-service architecture and DevOps with over 4 years professional experience.
-    </DetailedIntro>
-    
-    <DetailedIntro> 
-    In my free time, I enjoy Swimming, photography, Volleyball and watching technologies, inventeries, and science documentaries.
-    </DetailedIntro>
+const Introduction = () => {
+    const el = React.useRef('');
+    // Create reference to store the Typed instance itself
+    let typed: any = React.useRef(null);
 
-    <SocialIcons />
-</InnerIntrouductionWrapper>
-</IntrouductionWrapper>
 
+    React.useEffect(() => {
+        const options = {
+            strings: [
+            `Hi, I'm Idris Kelani.`,
+          ],
+          typeSpeed: 50,
+          showCursor: false,
+        };
+        
+        // elRef refers to the <span> rendered below
+        typed.current = new Typed(el.current, options);
+        
+        return () => {
+          // Make sure to destroy Typed instance during cleanup
+          // to prevent memory leaks
+        //   typed.current.destroy();
+        }
+      }, [])
+
+    return <IntrouductionWrapper>
+        <InnerIntrouductionWrapper>
+            <NameIntro ref={el} />
+            <TagIntro>
+                Software Engineer, Mentor and Researcher
+            </TagIntro>
+            <SocialIcons  />
+        </InnerIntrouductionWrapper>
+    </IntrouductionWrapper>
+}
 export default Introduction
