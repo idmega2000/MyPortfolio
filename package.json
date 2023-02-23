@@ -27,7 +27,7 @@
     "next-themes": "^0.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "sequelize": "^6.27.0",
+    "sequelize": "^6.28.2",
     "styled-components": "^5.3.6",
     "styled-reset": "^4.4.4",
     "typed.js": "^2.0.12",
