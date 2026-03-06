@@ -57,7 +57,7 @@ const Event = () => (
     <Title>Success!</Title>
     <Message>Your event has been submitted successfully.</Message>
     <BackLink href="/">Back to Home</BackLink>
-  </SuccessWrapper>https://my-portfolio-navy.vercel.app/event
+  </SuccessWrapper>
 );
 
 export default Event;
